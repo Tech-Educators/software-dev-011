@@ -1,1 +1,5 @@
-# software-dev-011
+# Contents
+- Demos from the sessions
+- Useful guides
+
+Enjoy! (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
