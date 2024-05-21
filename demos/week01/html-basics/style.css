@@ -13,11 +13,14 @@ h1 {
   font-size: 4rem;
   background-color: blueviolet;
   text-align: center;
-  margin: 50px;
+  /* margin: 50px; */
   border: 10px solid green;
-  padding: 30px;
+  /* padding: 30px; */
 }
-
+.header-fixed {
+  position: fixed;
+  width: 100%;
+}
 /* rem --> relative to 1 em
 1 em --> 16px */
 
@@ -28,9 +31,14 @@ h1 {
   background-color: yellowgreen;
 }
 
+/* z-index brings elements forward towards the user */
+.section-1 img {
+  z-index: 1;
+}
+
 /* id selector */
 #header-h2 {
-  margin: 30px;
+  /* margin: 30px; */
   font-size: 2rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -60,4 +68,14 @@ img[alt] {
 section[class~="secondary-section"] {
   font-family: Arial, Helvetica, sans-serif;
   border: 5px solid green;
+}
+
+.positioning-container h2 {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.positioning-container {
+  position: relative;
 }
