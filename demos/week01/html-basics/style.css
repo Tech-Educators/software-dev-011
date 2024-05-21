@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+* {
+  background-color: salmon;
+  font-family: monospace;
+}
+
+/* select html elements with the tag, the class, id */
+
+/* tag selector */
+h1 {
+  font-size: 4rem;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+/* rem --> relative to 1 em
+1 em --> 16px */
+
+/* class selector */
+.section-1 {
+  width: 100%;
+  height: 100%;
+  background-color: yellowgreen;
+}
+
+/* id selector */
+#header-h2 {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
