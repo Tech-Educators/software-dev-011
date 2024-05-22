@@ -26,3 +26,16 @@ console.log(`${myName}  ${myConstName} "1"`);
 
 //template literals and concatenation
 console.log(`${myName} ${myConstName}` + " asd");
+
+let myOperation = (1 + 2) * 4;
+console.log(myOperation);
+let myNumber1 = 5;
+let myNumber2 = 9;
+
+let mySuperVariable = myNumber1 + myNumber2;
+console.log(mySuperVariable);
+
+//console methods --> built-in function
+console.log(window);
+console.dir(window); //more info about the element
+// console.table(window); //shows info as a table
