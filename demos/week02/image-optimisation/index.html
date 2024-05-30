@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Optimisation</title>
+  </head>
+  <body>
+    <img
+      src="https://picsum.photos/2000/3000"
+      alt="placeholder"
+      srcset="
+        https://picsum.photos/200/300    200w,
+        https://picsum.photos/500/700    500w,
+        https://picsum.photos/1500/1700 1500w
+      "
+    />
+    <!-- the w (width) is used to cater for a specific screen size -->
+  </body>
+</html>
