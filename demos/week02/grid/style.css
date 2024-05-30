@@ -1,0 +1,33 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+* {
+  background-color: darkgreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+
+.main-container {
+  display: grid;
+  /* grid-template-columns: 1rem 100px 25%; you can combine different measurements*/
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+header,
+footer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  /* you can also tell the elements where to start and end using the grid rows */
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+  background-color: peru;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
