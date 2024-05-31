@@ -23,13 +23,15 @@ let images = [
 //function to create my thumbnail images --> action
 function createThumbnails(thumbnailContainer) {
   //a loop to create multiple images --> forEach /for loop
-  thumbnailContainer.forEach((thumbnail) => {
+  thumbnailContainer.forEach((thumbnail, index) => {
     //a document method that creates a DOM element (img)
     //assign a value to the img attributes (eg. img.src = "value")
     //(optional) assign a class name to the img element (.className property)
     //append the new elements to the DOM using a document method
     //add an event listener for each image
-    //parameter.addEventListener("click", function (){
+    //thumbnail.addEventListener("click", function (){
+    //when the user clicks on the image, we are going to call the function that creates the large image
+    createLargeImage(thumbnail[index]);
     // })
   });
 }
