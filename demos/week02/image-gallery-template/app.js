@@ -21,7 +21,7 @@ let images = [
 //select the large-image-container
 
 //function to create my thumbnail images --> action
-function createThumbnails(parameter) {
+function createThumbnails(thumbnailContainer) {
   //a loop to create multiple images --> forEach /for loop
   thumbnailContainer.forEach((thumbnail) => {
     //a document method that creates a DOM element (img)
@@ -36,7 +36,7 @@ function createThumbnails(parameter) {
 
 // createThumbnails(argument --> images)
 
-function createLargeImage(parameter) {
+function createLargeImage(largeImage) {
   //problem -->  the images appear one after the other (innerHTML = "")
   //create an image element
   //(optional) add a classname
