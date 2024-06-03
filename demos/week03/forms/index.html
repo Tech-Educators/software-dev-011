@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <!-- write a form to collect data from customers -->
+    <form id="customer-form">
+      <!-- this input contains the customer name -->
+      <label for="customerName">Customer Name: </label>
+      <input
+        type="text"
+        id="customer-name"
+        name="customerName"
+        placeholder="Write your name here"
+        required
+      />
+      <!-- this input contains the customer email -->
+      <label for="customerEmail">Email: </label>
+      <input type="email" id="customer-email" name="customerEmail" />
+      <!-- other types of input -->
+      <label for="customerPassword">Password: </label>
+      <input type="password" id="customer-password" name="customerPassword" />
+      <button type="submit">Submit</button>
+      <label for="remember">Remember me:</label>
+      <input type="checkbox" name="remember" />
+      <!-- select from options -->
+      <label for="customerCountry">Country:</label>
+      <select name="customerCountry">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="spain">Spain</option>
+        <!-- Add other countries as needed -->
+      </select>
+    </form>
+  </body>
+</html>
