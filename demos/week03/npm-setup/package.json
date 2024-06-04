@@ -1,0 +1,18 @@
+{
+  "name": "npm-setup",
+  "version": "1.0.0",
+  "description": "A demo to install npm packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "cowsay": "cowsay Javascript FTW!"
+  },
+  "keywords": [],
+  "author": "Manny",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  },
+  "type": "module"
+}
