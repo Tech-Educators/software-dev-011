@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" type="module" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms in Local Storage</h1>
+    <form id="profile-form">
+      <fieldset>
+        <legend>Profile Info</legend>
+        <label for="username">Username</label>
+        <!-- all your inputs need a name attribute -->
+        <input
+          type="text"
+          name="username"
+          placeholder="Write your username"
+          required
+        />
+        <label for="location">Location</label>
+        <input
+          type="text"
+          name="location"
+          placeholder="Write your current location"
+          required
+        />
+        <label for="biography">Biography</label>
+        <textarea
+          type="text"
+          name="biography"
+          placeholder="Write about yourself!"
+          required
+        ></textarea>
+        <button type="submit">Submit your profile</button>
+      </fieldset>
+    </form>
+
+    <div id="form-container"></div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+* {
+  background-color: papayawhip;
+}
+
+button {
+  background-color: peru;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+input[type="text"],
+textarea[type="text"] {
+  background-color: white;
+}
