@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="/main.js" defer></script>
+
+    <title>User Inputs and POST</title>
+  </head>
+  <body>
+    <!-- I want you to write a form with 2 inputs, one for username, one for location -->
+    <!-- <form action="submit" method="post"> -->
+    <form id="profile-form" aria-label="profile form">
+      <label for="username"></label>
+      <input
+        type="text"
+        name="username"
+        placeholder="Write your name"
+        required
+      />
+      <label for="location"></label>
+      <input
+        type="text"
+        name="location"
+        placeholder="Write your location"
+        required
+      />
+      <button type="submit">Submit my profile using this button</button>
+      <!-- <input type="submit" value="I am an input in disguise" /> -->
+    </form>
+  </body>
+</html>
