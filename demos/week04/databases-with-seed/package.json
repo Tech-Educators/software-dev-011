@@ -1,0 +1,22 @@
+{
+  "name": "supabase-setup-env-var",
+  "version": "1.0.0",
+  "description": "This is just a server connected to Supabase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server",
+    "bruv": "node server",
+    "seed": "node seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
