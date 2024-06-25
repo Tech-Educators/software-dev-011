@@ -1,0 +1,26 @@
+/* global styles */
+
+/* CSS reset imported */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+/* the root pseudo class targets the root element */
+:root {
+  --main-app-bg-colour: #8a2be2;
+  --section-bg-colour: green;
+  --main-app-font: monospace;
+  --section-font: sans-serif;
+}
+
+/* CSS variables */
+/* We add the CSS variables to the :root, so we can access the value anywhere in our app */
+/* CSS variables have access to the DOM, so you can change the value in JS */
+/* Example: --main-app-bg-colour: blueviolet; */
+
+/* How to use CSS variables */
+.main-title {
+  /* redeclare a variable */
+  --main-app-bg-colour: red;
+  /* apply variables to properties */
+  background-color: var(--main-app-bg-colour);
+  font-family: var(--main-app-font);
+}
