@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BiscuitDiv from "./components/BiscuitsDiv";
+import Testimonial from "./components/Testimonial";
 //destructure and import our biscuits array into this component
 import { biscuits } from "./lib/biscuitsData";
 
@@ -24,6 +25,12 @@ export default function App() {
           description={item.description}
         />
       ))}
+      <Testimonial
+        username="LittleBugger"
+        review="I love biccies"
+        rating="🌟🌟🌟"
+        favCookie="chocolate cookies"
+      />
       <Footer />
     </>
   );
