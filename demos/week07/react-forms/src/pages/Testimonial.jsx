@@ -1,4 +1,4 @@
-import TestiesForm from "../components/TestiesForm";
+import TestiesFormSpread from "../components/TestiesFormSpread";
 import { useState } from "react";
 
 //Step 1: state
@@ -15,7 +15,7 @@ export default function Testimonial({ username, review, rating, favCookie }) {
   return (
     <>
       <h1>Testimonials</h1>
-      <TestiesForm />
+      <TestiesFormSpread />
       <div>
         <h2 onClick={handleClick}>{username}</h2>
         {showReview ? (
