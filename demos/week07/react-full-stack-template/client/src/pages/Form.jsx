@@ -17,7 +17,7 @@ export default function Form() {
   //     method:
   //     body:
   //     headers: {
-  //         "Content/type": "application/json"
+  //         "Content-Type": "application/json"
   //     }
   // })
   //   }
