@@ -1,0 +1,1 @@
+-- Please add any queries you are doing in the Supabase sql editor on here
