@@ -1,0 +1,18 @@
+/* These styles are the same as the getting started docs */
+.PopoverTrigger {
+  background-color: white;
+  border-radius: 4px;
+  color: peru;
+}
+
+.PopoverContent {
+  border-radius: 4px;
+  padding: 20px;
+  width: 260px;
+  background-color: white;
+  color: peru;
+}
+
+.PopoverArrow {
+  fill: white;
+}

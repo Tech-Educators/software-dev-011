@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root is a pseudo-class which targets the root of our app */
+:root {
+  --foreground-rgb: 453, 243, 112;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: darkslategray;
+}
+main {
+  background-color: blue;
+}
+/* we add media queries in the globals */
+/* @media  */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

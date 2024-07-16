@@ -1,0 +1,13 @@
+/* I make sure that the rules in this module always apply to the header */
+.h1 {
+  color: peru;
+  font-size: 2rem;
+}
+
+.nav {
+  color: papayawhip;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
