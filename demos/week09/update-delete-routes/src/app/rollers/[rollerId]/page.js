@@ -28,6 +28,7 @@ export default async function RollerIdPage({ params }) {
           <h2 key={roller.id}>{roller.name}</h2>
           <p>{roller.country}</p>
           <p>{roller.height}</p>
+          {/* you can have a Link to the edit and delete routes */}
         </>
       ))}
     </>
