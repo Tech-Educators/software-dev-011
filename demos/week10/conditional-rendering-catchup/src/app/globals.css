@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-color: rgb(19, 79, 15);
+  --links-colour: rgb(23, 23, 135);
+  --sign-colour: rgb(221, 222, 212);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: var(--text-color);
+}
